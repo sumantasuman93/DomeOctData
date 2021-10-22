@@ -49,7 +49,7 @@ public void add_Place_Payload_with(String Status, String language, String addres
 		 res=given().spec(requestSpecification())	
 		.body(data.addPlacePayLoad(Status,language,address));
 		 System.out.println(res);
-		 System.out.println("DATA is +++ " + Status);
+		 System.out.println("DATA is +++*********" + Status);
 		String obj12 =  ReUsableMethods.getreqBodyAsstring("Basebody.json");
 		 System.out.println("The data obj is ****" +obj12);
 		 String obj = new String( Files.readAllBytes(Paths.get("C:\\API Framework Copy\\APIFramework\\src\\test\\java\\bdd\\APIFramework\\Basebody.json")));
