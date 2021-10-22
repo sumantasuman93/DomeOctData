@@ -10,7 +10,7 @@ Scenario Outline: Validate Brand API data
 	Examples:
 	|responseAttribute	  |nodeValue   |
 	|status               |  OK        |
-	|scope                |  APPP       |
+	|scope                |  APP       |
 	  
 	
 	
